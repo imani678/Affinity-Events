@@ -1,0 +1,56 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(29, 2, 2);
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#that {
+  background-image: linear-gradient(
+    to right,
+    #686571,
+    #ee4b2b,
+    #00c2cb,
+    #ff7f50,
+    #553c9a
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8d3434;
+  border-radius: 6px;
+}
+
+.content {
+  text-align: center;
+  padding: 50px;
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

@@ -1,0 +1,119 @@
+{
+    "events": [
+    {
+      "title": "WHINEDOWN",
+      "description": "The Whine Down is a space for women, non-binary persons and agender humans. Specially curated for networking, creating memorable experiences and most of all fun.",
+      "date": "9 Sept",
+      "venue": "Taji Garden",
+      "capacity": "500",
+      "tickets_sold": "389",
+      "poster": "https://pbs.twimg.com/media/F1QHvgsX0AIgdkq?format=jpg&name=large"
+    },
+    {
+        "title": "HANGOVER_BRUNCH",
+        "description":"Specialises in a superb selection of beers, but it also serves a wide array of well-crafted cocktails and gastro pub food. There is always a lively and vibrant vibe on the terraces.",
+        "date": "End of every Month",
+        "venue": "K1 Klub House",
+        "capacity": "346",
+        "tickets_sold": "270",
+        "poster": "https://st.depositphotos.com/1588534/4460/i/450/depositphotos_44608767-stock-photo-wine-beer-and-food.jpg"
+      },
+    
+      {
+        "title": "GAMENIGHT",
+        "description": "Games available: Escape room, bowling, charades, kareoke and much moree fun!",
+        "date": "4 May",
+        "venue": "ziza Arcades",
+        "capacity": "300",
+        "tickets_sold": "272",
+        "poster": "https://awkwardnerdevents.com/cdn/shop/products/GameNightflyer_1_530x@2x.png?v=1682130050"
+      },
+      {
+        "title": "MORINGA WORKSHOP",
+        "description": "Join Moringa bootcamp as they focus on coding techniques and skills.",
+        "date": "7 June",
+        "venue": " Lumiere Underwood",
+        "capacity": "260",
+        "tickets_sold": "260",
+        "poster": "https://flatironschool.com/wp-content/uploads/2022/02/moringa-flatiron-logo.png"
+      },
+      {
+        "title": "SALSA NIGHT",
+        "description": "Embrace the Latin beat as you sway to the mesmerizing tunes of salsa, bachata, and Kizomba, with free entry for all. Whether you’re a seasoned dancer or taking your first steps",
+        "date": "25 April",
+        "venue": "Brew Bistro and Lounge Rooftop",
+        "capacity": "130",
+        "tickets_sold": "117",
+        "poster": "https://as2.ftcdn.net/v2/jpg/01/34/00/59/1000_F_134005969_IurHLyI1kbz3jdAEZkKo0LFlYhntHaOQ.jpg"
+      },
+      {
+        "title": "MIZILLA CAMP",
+        "description": "For three nights, get away from the hassle of urban life, to a more natural environment for a limited time. supplies are provided.",
+        "date": "12 August",
+        "venue": "Camp Malta",
+        "capacity": "300",
+        "tickets_sold": "199",
+        "poster":"https://www.goodnet.org/photos/281x197/30498_hd.jpg"
+      },
+      {
+        "title": "THE FINAL HOP",
+        "description": "Launch of the latest apple products by Steve Jobs",
+        "date": "23 May",
+        "venue": "ISTORE APPLE CENTRE",
+        "capacity": "60",
+        "tickets_sold": "52",
+        "poster": "https://www.thefinalhop.com/content/images/2023/09/thefinalhop_Apples_Quantum_Leap_Unpacking_the_Latest_Apple_Even_f759d819-42cf-444d-9247-ee94599fc133.png"
+      },
+      {
+        "title": "COMING SOON!",
+        "description": "Frozen Empire Movie..ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age.",
+        "date": "15 April",
+        "venue": "Anga Sky, Panari Centre",
+        "capacity": "200",
+        "tickets_sold": "99",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ftP12MGJV4hHFKdUyR3XdCBOIVcN-xvWxBitPhNzaw&s"
+      },
+      {
+        "title": "KUNG'ARA NG'ARA",
+        "description": "Great shopping, good music, excellent vibes. See you on Sunday",
+        "date": "Every Week up to 29th Dec, 2024",
+        "venue": "Nairobi Street Kitchen",
+        "capacity": "100",
+        "tickets_sold": "68",
+        "poster": "https://i.ytimg.com/vi/BkJaYyn9YZk/maxresdefault.jpg"
+      },
+      
+
+      {
+        "title": "AQUATIC AFFAIR",
+        "description": " Olympics and other international competitions, including the disciplines of swimming, diving, synchronized swimming, water polo, and open water swimming.",
+        "date": "16 April",
+        "venue": "2 Typhoon Lagoon",
+        "capacity": "799",
+        "tickets_sold": "629",
+        "poster": "https://www.phila.gov/media/20210625191054/Pools-0041-700x400.jpg"
+      }
+    ]}
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
