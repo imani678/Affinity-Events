@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchEvents();
 });
 function purchase1() {
-  alert("purchase enjoy your event");
+  alert("purchased enjoy your event");
 }
 function fetchEvents() {
   fetch(`${base}`, {
@@ -51,6 +51,8 @@ function renderEvents(event) {
   const description = document.createElement("p");
   description.className = "card-text";
   description.innerText = event.description;
+
+  
 
   //getting number of tickets available
   const tickets = document.createElement("p");
