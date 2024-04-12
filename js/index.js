@@ -3,7 +3,9 @@ const base = "http://localhost:3000/events";
 document.addEventListener("DOMContentLoaded", () => {
   fetchEvents();
 });
-
+function purchase1() {
+  alert("purchase enjoy your event");
+}
 function fetchEvents() {
   fetch(`${base}`, {
     method: "GET",
@@ -61,6 +63,7 @@ function renderEvents(event) {
   button.classList.add("btn", "btn-primary");
   button.innerText = "PURCHASE";
 
+  button.addEventListener("click", purchase1);
   cardBody.append(title, description, tickets, button);
   //append card body to paernt div
   parentDiv.appendChild(cardBody);

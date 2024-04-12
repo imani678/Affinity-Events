@@ -1,56 +1,150 @@
+/* index.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 12;
+}
+body,
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: rgb(29, 2, 2);
-  overflow: hidden;
+  background-image: url(images/young-adult-having-fun-white-party.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#that {
+  color: azure;
+}
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #403e3e;
+  border-radius: 5rem;
+}
+/* Navigation styles */
+ul {
+  list-style-type: none;
+  background-color: #333;
+  text-align: center;
 }
 
 li {
-  float: left;
+  display: inline-block;
+  margin: 10px;
 }
 
 li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 10px 20px;
+  color: #fff;
   text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  font-family: "poppins";
+  font-size: medium;
 }
 
 li a:hover {
-  background-color: #111;
-}
-#that {
-  background-image: linear-gradient(
-    to right,
-    #686571,
-    #ee4b2b,
-    #00c2cb,
-    #ff7f50,
-    #553c9a
-  );
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+  background-color: #555;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-}
-::-webkit-scrollbar-thumb {
-  background: #8d3434;
-  border-radius: 6px;
-}
-
-.content {
+/* Card styles */
+.container {
   text-align: center;
-  padding: 50px;
-  color: black;
+  margin-top: 20px;
 }
 
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 70%;
+  height: 50%;
+  border-radius: 10px;
+}
+.card-img-overlay {
+  position: fixed;
+  top: 30%;
+  bottom: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "poppins";
+}
+.card-title {
+  font-size: 30px;
+  color: #333;
+  margin-top: 20px;
+  font-family: "poppins";
+}
+
+.card-text {
+  margin-top: 19%;
+  color: rgb(20, 20, 20);
+  font-family: "poppins";
+  font-size: 24px;
+  text-align: center;
+  top: 30%;
+  bottom: 30%;
+  left: 0;
+  right: 0;
+}
+/* Grid container styles */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+}
+
+/* Event item styles */
+.event-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 300px;
+}
+.container.text-center {
+  margin-top: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: auto;
+  font-family: "poppins";
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  font-family: "poppins" sans-serif;
+}
+.social-links {
+  padding: 0.3rem 1rem;
+  margin-top: 0.1rem;
+}
+footer .container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer .footer-social {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
 }

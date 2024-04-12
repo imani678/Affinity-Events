@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <title>Affinity-Events</title>
     <link
       rel="icon"
@@ -20,38 +28,81 @@
   <body>
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#services">HOST</a></li>
+      <li><a href="#services">Host</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <section class="home" id="home">
+      <div class="container text-center">
+        <div class="card text-bg-dark">
+          <img
+            id="image"
+            src="./images/Light Cubed Pendants.jpeg"
+            class="card-img"
+            alt="backdrop"
+            height="720"
+          />
 
-    <div class="container text-center">
-      <div class="card text-bg-dark">
-        <img
-          id="image"
-          src="./images/Light Cubed Pendants.jpeg"
-          class="card-img"
-          alt="backdrop"
-          height="720"
-        />
+          <div class="card-img-overlay">
+            <h5 class="card-title">AFFINITY EVENTS</h5>
+            <marquee behavior="scroll" direction="left"
+              >CHECK OUT AVAILABLE EVENTS!!</marquee
+            ><br /><br />
 
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <marquee behavior="scroll" direction="left">WELCOME</marquee
-          ><br /><br />
-
-          <p class="card-text" id="that">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            <p class="card-text" id="that">
+              Affinity Affairs is an immersive event platform designed to
+              connect enthusiasts with a diverse array of captivating
+              experiences. With a curated selection of events spanning from
+              cultural festivals to exclusive concerts, Affinity Affairs
+              provides a one-stop destination for discovering and purchasing
+              tickets to exciting gatherings. Our platform serves as a dynamic
+              hub where event organizers can showcase their offerings, allowing
+              users to explore a wide range of interests and passions. Whether
+              you're a music aficionado, a culinary connoisseur, or an art
+              enthusiast, Affinity Affairs caters to all tastes and preferences.
+              Driven by a commitment to quality and excellence, Affinity Affairs
+              strives to create memorable experiences that transcend the
+              ordinary. By seamlessly integrating event discovery, ticket
+              purchasing, and personalized recommendations, we aim to make every
+              interaction with our platform an enriching and enjoyable
+              experience. Join us on a journey of exploration and discovery as
+              we celebrate the diverse tapestry of events that make life truly
+              extraordinary. Welcome to Affinity Affairs – where every event is
+              an opportunity to create lasting memories.
+            </p>
+            <p class="card-text">
+              <small>There's Always Something For Everyone!!</small>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <br /><br />
-
-    <div class="container mt-5">
-      <div class="grid-container" id="events"></div>
-    </div>
+    <section class="services" id="services">
+      <div class="container mt-5">
+        <div class="grid-container" id="events"></div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <footer>
+        <div class="container">
+          <p>&copy; 2024 Affinity-Events. All rights reserved.</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/AffinityEventsLtd/"
+            ><img
+              src="./images/facebook.svg"
+              alt="facebook"
+              class="social-links"
+          /></a>
+          <a href="https://www.instagram.com/affinityevents/"
+            ><img
+              src="./images/instagram.svg"
+              alt="instagram"
+              class="social-links"
+          /></a>
+        </div>
+      </footer>
+    </section>
 
     <script src="./js/index.js"></script>
     <script
