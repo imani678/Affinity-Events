@@ -9,9 +9,10 @@
 #### By IMANI VATA
 
 ## Description
+Affinity Events is a platform where a user can see a list of available events in the year 2024. A user can purchse the tickets. Dates and the venue and well displayed. If someone wants to host an events, one can do so by clicking the host button.
+Revies by customers are also accepted and our other websites are displayed.
+Cutomers can also contact us as we have shared our number where they can reach us out.
 
-allows user to see a list of events with the date and location.
-user can buy tickets for an event
 
 ## Installation
 
