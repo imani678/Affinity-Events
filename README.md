@@ -1,6 +1,6 @@
 # Affinity-Events
 
-### live link[http://localhost:5501/]
+### live link[https://imani678.github.io/Affinity-Events/]
 
 # code-challenge1
 
