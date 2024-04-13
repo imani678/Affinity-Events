@@ -2,7 +2,7 @@
 
 ### live link[https://imani678.github.io/Affinity-Events/]
 
-# code-challenge1
+# project
 
 #### Date, 4/12/2024
 
@@ -34,7 +34,7 @@ Git clone git@github.com:imani678/Affinity-Events.git
 Javascript
 HTML
 CSS
-json
+Bootstrap
 
 ### License
 
