@@ -1,5 +1,4 @@
-const base =
-  "https://my-json-server.typicode.com/imani678/Affinity-Events/events";
+const base = "http://localhost:3000/events";
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchEvents();
