@@ -4,9 +4,7 @@ const base =
 document.addEventListener("DOMContentLoaded", () => {
   fetchEvents();
 });
-function purchase1() {
-  alert("purchased enjoy your event");
-}
+
 function fetchEvents() {
   fetch(`${base}`, {
     method: "GET",
@@ -52,7 +50,15 @@ function renderEvents(event) {
   description.className = "card-text";
   description.innerText = event.description;
 
-  
+  //date
+  const date = document.createElement("p");
+  date.className = "card-date";
+  date.innerText = event.date;
+
+  //venue
+  const venue = document.createElement("p");
+  venue.className = "card-venue";
+  venue.innerText = event.venue;
 
   //getting number of tickets available
   const tickets = document.createElement("p");
@@ -66,8 +72,7 @@ function renderEvents(event) {
   button.classList.add("btn", "btn-primary");
   button.innerText = "PURCHASE";
 
-  button.addEventListener("click", purchase1);
-  cardBody.append(title, description, tickets, button);
+  cardBody.append(title, description, date, venue, tickets, button);
   //append card body to paernt div
   parentDiv.appendChild(cardBody);
 
