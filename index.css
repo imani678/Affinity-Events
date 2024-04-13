@@ -40,11 +40,11 @@ li {
 li a {
   display: block;
   padding: 10px 20px;
-  color: #fff;
+  color: #944949;
   text-decoration: none;
   transition: background-color 0.3s ease;
   border-radius: 20px;
-  font-family: "poppins";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
 }
 
@@ -139,8 +139,8 @@ footer .footer-social {
   text-align: center;
 }
 
-.card-body1{
- font-style: italic;
- font-size: medium;
- background-color: #e4c7d1;
+.card-body1 {
+  font-style: italic;
+  font-size: medium;
+  background-color: #e4c7d1;
 }
