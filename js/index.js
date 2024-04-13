@@ -8,6 +8,7 @@ function purchase1() {
   alert("purchase enjoy your event");
 }
 
+
 function fetchEvents() {
   fetch(`${base}`, {
     method: "GET",
@@ -84,4 +85,7 @@ function renderEvents(event) {
 
   //append each card to event container
   eventsContainer.appendChild(colDiv);
+
+
+  
 }
