@@ -119,44 +119,38 @@
       "poster": "https://static.kenyabuzz.com/posters/events/null_1709101898587.jpg"
     },
     {
-       "title": "Dolls Of Good Hope",
-       "description": " Dolls of Good Hope Exhibit at Nairobi Gallery. Now through May.Normal Museum charges apply.",
-       "date": "Date: 30 March",
-       "venue": "Venue: Nairobi Theatre",
-       "poster": "https://static.kenyabuzz.com/posters/events/null_1710320752150.jpg"
+      "title": "Dolls Of Good Hope",
+      "description": " Dolls of Good Hope Exhibit at Nairobi Gallery. Now through May.Normal Museum charges apply.",
+      "date": "Date: 30 March",
+      "venue": "Venue: Nairobi Theatre",
+      "poster": "https://static.kenyabuzz.com/posters/events/null_1710320752150.jpg"
     },
-     {
-       "title": "Kalasha Awards ",
-       "description": "Kalasha Film & TV Awards is an annual accolade presented by Kenya Film Commission with a goal to recognize and celebrate achievers in Kenya's TV and film industry.",
-       "date": "Date: 12 December",
-       "venue": "Venue: KICC gala",
-       "capacity": "100",
-       "tickets_sold": "82",
-       "poster": "https://pbs.twimg.com/profile_images/633591401318621184/7r-OWMWm_400x400.jpg"
-     },
-      {
-        "title": "Senior Masquerade Banquet",
-        "description": "We close the year with a mysterious maskarade Party at Lukenya Hill. The Theme props, a Dj on the decks, and a mega bonfire to warm up the night will have ...",
-        "date": "Date: 28 December",
-        "venue": "Venue: lukenya Hill",
-        "capacity": "70",
-        "tickets_sold": "56",
-        "poster": "https://t3.ftcdn.net/jpg/06/35/59/18/360_F_635591858_4pnU9P1iOqT1BLTNPO74wsBjyukUW8D6.jpg"
-      },
-       {
-         "title": "KIDSCON",
-         "description": "Get the Kids ready to ignite their young minds! Join @Naiccon at their upcoming Kids Convention where Science, Technology, and creativity collide in an explosion of learning and fun. ",
-         "date": "Date: 19 August",
-         "venue": "Venue: Levilla Gardens",
-         "capacity": "360",
-         "tickets_sold": "237",
-         "poster": "https://static.kenyabuzz.com/uploads/2023/07/kidscon-300x159.png"
-       }
-
-
-
-
-
-  
+    {
+      "title": "Kalasha Awards ",
+      "description": "Kalasha Film & TV Awards is an annual accolade presented by Kenya Film Commission with a goal to recognize and celebrate achievers in Kenya's TV and film industry.",
+      "date": "Date: 12 December",
+      "venue": "Venue: KICC gala",
+      "capacity": "100",
+      "tickets_sold": "82",
+      "poster": "https://pbs.twimg.com/profile_images/633591401318621184/7r-OWMWm_400x400.jpg"
+    },
+    {
+      "title": "Senior Masquerade Banquet",
+      "description": "We close the year with a mysterious maskarade Party at Lukenya Hill. The Theme props, a Dj on the decks, and a mega bonfire to warm up the night will have ...",
+      "date": "Date: 28 December",
+      "venue": "Venue: lukenya Hill",
+      "capacity": "70",
+      "tickets_sold": "56",
+      "poster": "https://t3.ftcdn.net/jpg/06/35/59/18/360_F_635591858_4pnU9P1iOqT1BLTNPO74wsBjyukUW8D6.jpg"
+    },
+    {
+      "title": "KIDSCON",
+      "description": "Get the Kids ready to ignite their young minds! Join @Naiccon at their upcoming Kids Convention where Science, Technology, and creativity collide in an explosion of learning and fun. ",
+      "date": "Date: 19 August",
+      "venue": "Venue: Levilla Gardens",
+      "capacity": "360",
+      "tickets_sold": "237",
+      "poster": "https://static.kenyabuzz.com/uploads/2023/07/kidscon-300x159.png"
+    }
   ]
 }

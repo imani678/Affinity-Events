@@ -15,13 +15,13 @@ ul {
   color: rgb(94, 119, 119);
 }
 html::-webkit-scrollbar {
-  width: 0.8rem;
+  width: 0.4rem;
 }
 html::-webkit-scrollbar-track {
   background: transparent;
 }
 html::-webkit-scrollbar-thumb {
-  background: #403e3e;
+  background: #585454;
   border-radius: 5rem;
 }
 
