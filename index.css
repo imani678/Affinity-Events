@@ -1,7 +1,7 @@
 /* index.css */
 
 /* Reset default margin and padding */
-*{
+* {
   margin: 12;
 }
 ul {
@@ -24,7 +24,6 @@ html::-webkit-scrollbar-thumb {
   background: #403e3e;
   border-radius: 5rem;
 }
-
 
 /* Navigation styles */
 ul {
@@ -55,10 +54,6 @@ li a:hover {
 
 /* Card styles */
 
-
-
-
-
 .card-title {
   font-size: 20px;
   color: #333;
@@ -66,21 +61,18 @@ li a:hover {
   font-family: "poppins";
 }
 
-.card-text2{
-  font-family: 'Courier New', Courier, monospace;
+.card-text2 {
+  font-family: "Courier New", Courier, monospace;
   font-size: 90px;
 }
 
 .card-text {
   margin-top: 10%;
-  color: rgb(190, 154, 154);
+  color: rgb(29, 22, 22);
   font-family: "comicsans";
   font-size: 17px;
   text-align: center;
-
- 
 }
-
 
 #that {
   background-image: linear-gradient(
@@ -96,8 +88,6 @@ li a:hover {
   -webkit-background-clip: text;
 }
 
-
-
 .content {
   text-align: center;
   padding: 50px;
@@ -108,4 +98,49 @@ li a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+/* Event item styles */
+.event-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 300px;
+}
+.container.text-center {
+  margin-top: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: auto;
+  font-family: "poppins";
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  font-family: "poppins" sans-serif;
+}
+.social-links {
+  padding: 0.3rem 1rem;
+  margin-top: 0.1rem;
+}
+footer .container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer .footer-social {
+  text-align: center;
+}
+
+.card-body{
+ font-style: italic;
+ font-size: medium;
+ background-color: #eea387;
 }

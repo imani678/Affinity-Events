@@ -20,47 +20,125 @@
   <body>
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#services">HOST</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#service">Events</a></li>
+      <li><a href="#host">Host</a></li>
+      <li><a href="#contact">Contact Us</a></li>
     </ul>
+    <section class="home" id="home">
+      <div class="container text-center">
+        <div class="card text-bg-dark">
+          <img
+            id="image"
+            src="./images/Light Cubed Pendants.jpeg"
+            class="card-img"
+            alt="backdrop"
+            height="720"
+          />
 
-    <div class="container text-center">
-      <div class="card text-bg-dark">
-        <img
-          id="image"
-          src="./images/Light Cubed Pendants.jpeg"
-          class="card-img"
-          alt="backdrop"
-          height="720"
-        />
+          <div class="card-img-overlay">
+            <h5 class="card-text2" id="that">AFFINITY EVENTS</h5>
+            <marquee class="card-title" behavior="scroll" direction="left"
+              >WELCOME TO OUR WEBSITE</marquee
+            ><br />
 
-        <div class="card-img-overlay">
-          <h5 class="card-text2"  id="that">AFFINITY EVENTS</h5>
-          <marquee class="card-title" behavior="scroll" direction="left" >WELCOME TO OUR WEBSITE</marquee
-          ><br /><br />
-
-          <p class="card-text" id="that">
-             Affinity Affairs is an immersive event platform designed to connect
-          enthusiasts with a diverse array of captivating experiences. With a
-          curated selection of events spanning from cultural festivals to
-          exclusive concerts, Affinity Affairs provides a one-stop destination
-          for discovering and purchasing tickets to exciting gatherings.
-        
-          Join us on a journey of exploration and discovery as we celebrate the
-          diverse tapestry of events that make life truly extraordinary. Welcome
-          to Affinity Affairs where every event is an opportunity to create
-          lasting memories.
-          </p>
-          <p class="card-text"><small>Lets create lasting memories together</small></p>
+            <p class="card-text" id="that">
+              Affinity Affairs is an immersive event platform designed to
+              connect enthusiasts with a diverse array of captivating
+              experiences. With a curated selection of events spanning from
+              cultural festivals to exclusive concerts, Affinity Affairs
+              provides a one-stop destination for discovering and purchasing
+              tickets to exciting gatherings. Join us on a journey of
+              exploration and discovery as we celebrate the diverse tapestry of
+              events that make life truly extraordinary. Welcome to Affinity
+              Affairs where every event is an opportunity to create lasting
+              memories.
+            </p>
+            <p class="card-text">
+              <small>Lets create lasting memories together</small>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <br /><br />
-
-    <div class="container mt-5">
-      <div class="grid-container" id="events">
+    </section>
+    <br />
+    <section class="service" id="service">
+      <div class="container mt-5">
+        <div class="grid-container" id="events"></div>
       </div>
+    </section>
+
+    <section class="host" id="host">
+      <div class="card">
+  <div class="card-body">
+    Fill out the form to host an Event;
+    <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Your Names</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Email</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Event Location</label>
+    <input type="text" class="form-control" id="inputAddress">
+  </div>
+  
+ 
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Event Type</label>
+    <select id="inputState" class="form-select">
+      <option>Movie Event</option>
+      <option>Night Event</option>
+      <option>Day Event</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Dates</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
     </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn">SUBMIT</button>
+  </div>
+</form>
+  </div>
+</div>
+    </section>
+
+<br>
+
+
+    <section class="contact" id="contact">
+      <footer>
+        <div class="container">
+          <p>&copy; 2024 Affinity-Events. All rights reserved.</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/AffinityEventsLtd/"
+            ><img
+              src="./images/facebook.svg"
+              alt="facebook"
+              class="social-links"
+          /></a>
+          <a href="https://www.instagram.com/affinityevents/"
+            ><img
+              src=""
+              height="40px"
+              alt="instagram"
+              class="social-links"
+          /></a>
+          
+      </footer>
+    </section>
 
     <script src="./js/index.js"></script>
     <script

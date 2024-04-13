@@ -71,9 +71,10 @@ function renderEvents(event) {
   const button = document.createElement("button");
   button.classList.add("btn", "btn-primary");
   button.innerText = "PURCHASE";
+  
 
   cardBody.append(title, description, date, venue, tickets, button);
-  //append card body to paernt div
+  //append card body to parent div
   parentDiv.appendChild(cardBody);
 
   colDiv.append(parentDiv);
